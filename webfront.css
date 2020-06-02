@@ -1,6 +1,21 @@
 /* OEWSkin - webfront.css */
 .ipsLogin>.logo { 
     background-image: url(./img/logo.oew.png); 
+    height: 128px;
+    margin-left: -50px;
+    margin-top: -250px;
+    width: 128px;
+}
+
+/* Farbe verändern */
+.ipsLogin,
+.ipsWebFront {
+	background-color: #555555;
+}
+
+.ipsTabPane > .navigation ,
+.ipsContentChanger > .navigation {
+	background-color: #111111;
 }
 
 /* Fix table.td height to 37px */

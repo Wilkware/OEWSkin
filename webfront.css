@@ -1,0 +1,113 @@
+/* OEWSkin - webfront.css */
+.ipsLogin>.logo { 
+    background-image: url(./img/logo.oew.png); 
+}
+
+/* Fix table.td height to 37px */
+.td {
+    height: 37px;
+}
+.ipsCategory>.container .content .visual>.text {
+  padding: 2px 6px;
+}
+/* Fix width for slider */
+.ipsCategory>.container .content .visual>.slider {
+  max-width: 120px;
+}
+
+/* All Buttons has now a min width for better visual vertical alignment */
+.ipsCategory>.container .content .visual>.text.colored {
+  text-align: center;
+  min-width: 29px;
+}
+
+.ipsCategory>.container .content .visual>.enum>div {
+  text-align: center;
+  min-width: 29px;
+}
+
+/* Notification Message Textbox */
+.ipsNotifications>.ipsNotification>.message {
+  background: rgba(255,165,0,0.90);
+}
+
+/* app-like scrollbar only for google chrome (pc) */
+@supports (-webkit-appearance:none) and (not (overflow:-webkit-marquee))
+    and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) {
+  ::-webkit-scrollbar {
+      width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: transparent;
+    border: solid 3px transparent;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: rgba(19,21,27,0.8);
+    box-shadow: inset 0 0 10px 10px #0a101a;
+    border: solid 1px rgba(255,255,255,0.25);
+   }
+  ::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(0,128,255,0.4);
+  }
+}
+
+/* Table styles (~HTMLBox) */
+table.oew {
+  border-collapse: collapse;
+  font-size: 14px;
+  width: 100%
+}
+
+.oew th, td {
+  vertical-align: middle;
+  text-align: left;
+  padding: 5px;
+}
+
+.oew td:first-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.oew td:not(:first-child):not(:last-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.oew td:last-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.oew tr:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.oew tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.oew thead {
+  font-weight:bold;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
+  background-image: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
+  background-image: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
+  background-image: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
+  background-image: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
+}
+
+.oew thead.olive {
+  background-color: rgb(160, 160, 0);
+}
+
+.oew thead.blue {
+  background-color: rgb(0, 160, 255);
+}
+
+.oew thead.orange {
+  background-color: rgb(255, 160, 0);
+}

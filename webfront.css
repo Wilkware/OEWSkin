@@ -10,12 +10,12 @@
 /* Farbe verändern */
 .ipsLogin,
 .ipsWebFront {
-	background-color: #555555;
+	background-color: #59524B;
 }
 
 .ipsTabPane > .navigation ,
 .ipsContentChanger > .navigation {
-	background-color: #111111;
+	background-color: #262423;
 }
 
 /* Fix table.td height to 37px */

@@ -1,4 +1,4 @@
-# WwxSkin
+# OEWSkin
 
 [![Version](https://img.shields.io/badge/Symcon-Webfront--Skin-red.svg)](https://www.symcon.de/service/dokumentation/entwicklerbereich/sdk-tools/sdk-skins/)
 [![Product](https://img.shields.io/badge/Symcon%20Version-5.x-blue.svg)](https://www.symcon.de/produkt/)

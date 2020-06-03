@@ -10,12 +10,12 @@
 /* Farbe verändern */
 .ipsLogin,
 .ipsWebFront {
-	background-color: #59524B;
+	background-color: rgb(89, 82, 75);
 }
 
 .ipsTabPane > .navigation ,
 .ipsContentChanger > .navigation {
-	background-color: #262423;
+	background-color: rgb(38, 36, 35);
 }
 
 /* Fix table.td height to 37px */
@@ -109,20 +109,12 @@ table.oew {
   font-weight:bold;
   color: rgb(255, 255, 255);
   background-image: linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
-  background-image: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
-  background-image: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
-  background-image: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
-  background-image: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
 }
 
-.oew thead.olive {
-  background-color: rgb(160, 160, 0);
-}
-
-.oew thead.blue {
-  background-color: rgb(0, 160, 255);
+.oew thead.green {
+  background-color: rgb(160, 160, 120);
 }
 
 .oew thead.orange {
-  background-color: rgb(255, 160, 0);
+  background-color: rgb(199,165,137);
 }

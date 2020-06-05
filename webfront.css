@@ -109,6 +109,7 @@ table.oew {
   font-weight:bold;
   color: rgb(255, 255, 255);
   background-image: linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
+  background-image: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 100%);
 }
 
 .oew thead.green {

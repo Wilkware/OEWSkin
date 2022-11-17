@@ -59,14 +59,18 @@ v1.0.20200602
 
 ## Developer
 
-* Heiko Wilknitz ([@wilkware](https://github.com/wilkware))
+For more than 10 years now, I have been fascinated by the topic of home control. In recent years, I have also been intensively involved in the IP-Symcon community and contribute various scripts and modules there. You can find me there under the name @pitti ;-)
+
+[![GitHub](https://img.shields.io/badge/GitHub-@wilkware-181717.svg?style=for-the-badge&logo=github)](https://wilkware.github.io/)
 
 ## Donations
 
-If you'd like to support further development of IP-Symcon modules & skins, please use the donate button below:
+The software is free for non-commercial use, I would appreciate a donation if you like the module.
 
-[![Donate](https://img.shields.io/badge/Donate%20with-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8816166)
+[![PayPal](https://img.shields.io/badge/PayPal-spenden-00457C.svg?style=for-the-badge&logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8816166)
 
-## Licence
+## Lizense
 
-[![Licence](https://licensebuttons.net/i/l/by-nc-sa/transparent/00/00/00/88x31-e.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Attribution - NonCommercial - ShareAlike 4.0 International
+
+[![Licence](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-EF9421.svg?style=for-the-badge&logo=creativecommons)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
